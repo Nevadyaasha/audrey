@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Hi, I`m Audrey</h1>
-<p>I`m 3 years old adorable cat.</p>
-<img src="audrey.jpg" alt="фото кошки" >
-    </body>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="favicons/favicon.ico" type="image/ico" sizes="48x48">
+  <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audrey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="custom.css">
+  <!-- <link rel="stylesheet" href="normalize.css"> -->
+</head>
+
+<body>
+  <header>
+    <img src="images/audrey.png" width="30px" height="30px" alt="logo">
+    <a href="#">resent</a>
+    <a href="#">gallery</a>
+    <a href="#">about us</a>
+  </header>
+  <hr>
+  <section class="container blogpost">
+    <div class="six columns">
+      <h1>Hi! I`m Audrey!</h1>
+      <p>And this is my tiny blog about oriental cats.</p>
+    </div>
+    <div class="six columns">
+      <img class="blogpost__image" src="images/hero.jpg" alt="cat">
+    </div>
+  </section>
+  <hr>
+  <section class="blogpost">
+    <h2>Why oriental cat is a great choice?</h2>
+    <ul>
+      <li>This breed is hypoallergenic</li>
+      <li>Oriental cats get along with other animals and children</li>
+      <li>They are always ready to play and talk with you</li>
+      <li>They do not avoid their owner and prefer to rest nearby</li>
+    </ul>
+  </section>
+  <hr>
+  <section class="blogpost container">
+   <h2>Here are some new photos!</h2>
+   <img class="five columns" src="images/photo_2024-05-31_13-41-44.jpg" alt="cat">
+   <img class="five columns" src="images/photo_2024-05-31_13-41-46.jpg" alt="cat">
+  </section>
+  <hr>
+  <section class="blogpost">
+    <h2>Want to learn more about oriental cats?</h2>
+    <p>Subscribe to blog news!</p>
+    <div class="container">
+      <div class="six columns">
+        <label for="exampleEmailInput">Your email</label>
+        <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+      </div>
+      <div class="six columns">
+        <label for="exampleRecipientInput">What do you want to get?</label>
+        <select class="u-full-width" id="1234">
+          <option value="Option 1">New articles</option>
+          <option value="Option 2">New photos</option>
+          <option value="Option 3">All</option>
+        </select>
+      </div>
+    </div>
+      <label>
+        <input type="checkbox">
+        <span class="label-body">I agree to get news from this blog</span>
+      </label>
+      <input class="button-primary" type="submit" value="Subscribe">
+  </section>
+</body>
+
 </html>

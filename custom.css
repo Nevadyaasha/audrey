@@ -1,0 +1,34 @@
+body {
+    max-width: 85%;
+    margin: 0 auto;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: transform 1s;
+}
+
+header {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogpost {
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    /* border-bottom: 1px grey solid; */
+}
+
+hr {
+    color: grey;
+}
+
+.blogpost__image {
+   max-width: 100%;
+}
